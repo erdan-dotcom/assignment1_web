@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table and Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html" class="active">Task 4</a>
+        <a href="https://github.com/erdan-dotcom/assignment1_web" target="_blank">GitHub Repo</a>
+    </nav>
+
+    <h2 id="table-heading">Student Grades Table</h2>
+    
+    <table class="grades-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Аарон Ғалымжанов</td>
+                <td>Mathematics</td>
+                <td>95</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>Ислам Мұрат</td>
+                <td>Web Development</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Айбол Қайратов</td>
+                <td>Algorithms</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>Нұрдәулет Серік</td>
+                <td>Physics</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="form-heading">Feedback Form</h2>
+
+    <div class="form-container">
+        <form class="feedback-form" id="main-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label>Do you like this website?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="like" value="yes" checked> Yes</label>
+                <label><input type="radio" name="like" value="no"> No</label>
+            </div>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+    </div>
+
+</body>
+</html>
