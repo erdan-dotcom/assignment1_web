@@ -84,7 +84,6 @@ li {
     margin-bottom: 8px;
 }
 
-
 .site-header {
     background-color: #34495e;
     color: #ffffff;
@@ -152,7 +151,6 @@ li {
 .sidebar a:hover {
     text-decoration: underline;
 }
-
 
 .tribute-container {
     max-width: 800px;
@@ -255,13 +253,11 @@ li {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-
 .reference-links {
     font-size: 0.9rem;
     color: #666;
     margin-top: 10px;
 }
-
 
 #table-heading, #form-heading {
     text-align: center;
@@ -270,6 +266,7 @@ li {
     margin-bottom: 20px;
 }
 
+/* Стили для таблицы Task 4 */
 .grades-table {
     width: 80%;
     margin: 0 auto 40px auto;
@@ -304,6 +301,7 @@ li {
     font-weight: bold;
 }
 
+/* Стили для формы Task 4 */
 .form-container {
     display: flex;
     justify-content: center;
